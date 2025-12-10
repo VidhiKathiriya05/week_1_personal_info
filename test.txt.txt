@@ -1,0 +1,35 @@
+﻿TEST PLAN & INPUT LOG 
+A text file documenting the inputs you used to test the program to ensure it works correctly. 
+
+
+
+
+Test Case 1: 
+Standard Input (Happy Path)
+ Input 1 (Food): Pizza 
+Input 2 (Color): Blue 
+Result: Success. Output displayed correctly. 
+
+
+
+
+Test Case 2: Empty Input (Edge Case)
+
+
+Input 1 (Food): [User presses Enter without typing]
+Result: Program displayed ">> Error: Input cannot be empty." 
+Action: User then typed "Sushi" 
+Input 2 (Color): Green 
+Result: Success. The program handled the error and proceeded. 
+
+
+
+
+Test Case 3: Whitespace Input (Edge Case)
+
+
+Input 1 (Food): [Spacebar pressed multiple times] 
+Result: Program displayed ">> Error: Input cannot be empty." (Caught by .strip()) 
+Action: User then typed "Tacos" 
+Input 2 (Color): Red 
+Result: Success.
